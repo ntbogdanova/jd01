@@ -1,17 +1,29 @@
 package Car;
 
-public class Motor extends Object{
-    private int volume; //объем
+public class Motor{
+    private int volume;//объем
+    private int fuel; //количество топлива
 
-    public Motor(int volume){
-        this.volume = volume;
+    public Motor(){
+        super();
+        int volume;
+        int fuel;
     }
+
+    public Motor(int volume, int fuel){
+        super();
+        this.volume = volume;
+        this.fuel = fuel;
+    }
+
 
     public int getVolume() {
         return volume;
     }
 
-    public void setVolume(int volume) {
-        this.volume = volume;
+
+    public int getFuel() {
+        return fuel;
     }
+
 }
