@@ -1,4 +1,4 @@
-package Car;
+package car;
 
 public class Sits {
     private int sit;

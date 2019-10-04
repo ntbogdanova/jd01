@@ -1,40 +1,23 @@
-package Car;
+package car;
 
 public abstract class Car implements ICar{
-    private Motor volume;
-    private Motor fuel;
+    private Motor motor;
     private Wheels wheels;
     private License license;
     private Sits sits;
     private Lock lock;
     private int sit;
 
-
-    public Car() {
-        int volume;
-        int fuel;
-        int wheels;
-        int license;
-        int sits;
-        int lock;
-    }
-
-    public Car(Motor volume, Motor fuel, Wheels wheels, License license, Sits sits, Lock lock){
-        this.volume = volume;
-        this.fuel = fuel;
+    public Car(Motor motor, Wheels wheels, License license, Sits sits, Lock lock){
+        this.motor = motor;
         this.wheels = wheels;
         this.license = license;
         this.sits = sits;
         this.lock = lock;
     }
 
-    public Car(Motor motor, Wheels wheels, License license, Sits sits, Lock lock) {
-        this.fuel = motor;
-        this.volume = motor;
-        this.wheels = wheels;
-        this.license = license;
-        this.sits = sits;
-        this.lock = lock;
+    public Motor getMotor() {
+        return motor;
     }
 
     public void isOpened(){

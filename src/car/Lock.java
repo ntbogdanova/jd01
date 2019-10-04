@@ -1,6 +1,6 @@
-package Car;
+package car;
 
-public class Lock extends Car {
+public class Lock {
     private Key key;
 
     public void isKey(Key key1){
@@ -9,6 +9,7 @@ public class Lock extends Car {
         }
         else System.out.println("Не подходит");
     }
+
  }
 
 

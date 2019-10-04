@@ -1,6 +1,6 @@
-package Car;
+package car;
 
-public class License extends Car{
+public class License{
     private int licence1;
 
     public License(){

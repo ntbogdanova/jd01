@@ -1,4 +1,4 @@
-package Car;
+package car;
 
     public class Driver implements IDriver{
         private Car car;
