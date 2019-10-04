@@ -9,6 +9,7 @@ public abstract class Car implements ICar{
     private Lock lock;
     private int sit;
 
+
     public Car() {
         int volume;
         int fuel;
