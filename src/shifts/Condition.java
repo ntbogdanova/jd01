@@ -10,7 +10,8 @@ public class Condition {
 
     public static String equallity(String a, String b){
         String res;
-        if(a.equals(b)){
+        if(a.equals(b))
+        {
             res = "Равны";
         }
         else {
