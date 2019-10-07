@@ -5,15 +5,14 @@ public abstract class Car implements ICar{
     private Wheels wheels;
     private License license;
     private Sits sits;
-    private Lock lock;
+    private int lock;
     private int sit;
 
-    public Car(Motor motor, Wheels wheels, License license, Sits sits, Lock lock){
+    public Car(Motor motor, Wheels wheels, License license, Sits sits, int lock){
         this.motor = motor;
         this.wheels = wheels;
         this.license = license;
         this.sits = sits;
-        this.lock = lock;
     }
 
     public Motor getMotor() {
@@ -21,27 +20,27 @@ public abstract class Car implements ICar{
     }
 
     public void isOpened(){
-        System.out.println("Машина открыта");
+        System.out.println("Машина открыта.");
     }
 
     public void isStarted(){
-        System.out.println("Машина завелась");
+        System.out.println("Машина завелась.");
     }
 
     public void go(){
-        System.out.println("Машина едет");
+        System.out.println("Машина едет.");
     }
 
     public void isRefueled(){
-        System.out.println("Машина заправлена");
+        System.out.println("Машина заправлена.");
     }
 
     public void putPassangers(int x){
         if(x>=sit) {
-            System.out.println("Пассажиров больше, чем свободных мест");
+            System.out.println("Пассажиров больше, чем свободных мест.");
         }
         else{
-            System.out.println("Пассажиры внутри");
+            System.out.println("Пассажиры внутри.");
         }
     }
 
@@ -49,8 +48,5 @@ public abstract class Car implements ICar{
        return license;
     }
 
-    public Lock getLock() {
-        return lock;
-    }
 
 }

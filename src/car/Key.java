@@ -1,16 +1,23 @@
 package car;
 
 public class Key {
-    private String Lock;
-    public Lock whichLock(){
-        return this.whichLock();
-    }
+  public int key;
+  public int lock;
 
-    public String getLock() {
-        return Lock;
+  public void isKey(){
+    if(key == lock){
+      System.out.println("Машину можно открыть.");
     }
+    else{
+      System.out.println("Не подходит ключ к замку!");
+    }
+  }
 
-    public void setLock(String lock) {
-        Lock = lock;
-    }
+  public int getLock() {
+    return lock;
+  }
+
+  public int getKey() {
+    return key;
+  }
 }

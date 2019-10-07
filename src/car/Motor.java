@@ -1,7 +1,7 @@
 package car;
 
 public class Motor{
-    private int volume;//объем
+    private static int volume;
     private int fuel; //количество топлива
 
     public Motor(int volume, int fuel){
@@ -10,7 +10,7 @@ public class Motor{
     }
 
 
-    public int getVolume() {
+    public static int getVolume() {
         return volume;
     }
 

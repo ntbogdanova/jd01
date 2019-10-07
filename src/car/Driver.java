@@ -2,33 +2,31 @@ package car;
 
     public class Driver implements IDriver{
         private Car car;
-       // private License license;   //права категории
+        private int key;
+        private int license;   //права категории
         private int age; //стаж
         private int x;
-        private int keyD;
 
-      /*  public Driver(){
-            int age;
-            License license;
+        public Driver(int license, int age, int key){
+            this.age = age;
+            this.key = key;
         }
 
-        public Driver(License license, int age){
-            this.license = license;
-        }
-*/
         public int getAge() {
+            System.out.println("Стаж водителя: " + age + " года.");
             return age;
         }
 
-
         public void open() {
-            // if(keyD==this.key1){
-            System.out.println("Открыл машину");
-            // }
-            // else
-            //    System.out.println("Уходи");
+            if(key==1){
+            System.out.println("Ключ подходит, водитель открыл машину.");
+            }
+            else
+                System.out.println("Уходи.");
         }
 
-
+        public void drive(){
+            System.out.println("Водитель завёл машину и находится за рулём.");
+        }
 }
 
