@@ -2,6 +2,7 @@ package shifts;
 
     public class Main {
         public static void main(String[] args) {
+
             Shift.intLeftShift(3, 4);
             Shift.intRightShift(6, 3);
             Shift.doubleLeftShift(2.15, 5);

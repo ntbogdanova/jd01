@@ -8,6 +8,7 @@ public class Sits {
     }
 
     public Sits(int sit){
+
         this.sit = sit;
     }
 

@@ -6,6 +6,7 @@ public class Key {
 
   public void isKey(){
     if(key == lock){
+
       System.out.println("Машину можно открыть.");
     }
     else{

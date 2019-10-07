@@ -9,6 +9,7 @@ public abstract class Car implements ICar{
     private int sit;
 
     public Car(Motor motor, Wheels wheels, License license, Sits sits, int lock){
+
         this.motor = motor;
         this.wheels = wheels;
         this.license = license;

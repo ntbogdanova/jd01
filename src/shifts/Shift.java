@@ -5,6 +5,7 @@ import javax.management.remote.rmi._RMIConnection_Stub;
     public class Shift {
 
         public static int intRightShift(int a, int b){
+
             int c = a>>b;
             System.out.println("Сдвиг вправо: " + c + " = " + a + " >> " + b);
             return c;

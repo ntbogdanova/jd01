@@ -15,6 +15,7 @@ public class Wheels{
 
     public void setName(int name) {
         this.name = name;
+
         if(name == 1){
             System.out.println("Колёса зимние");
         }

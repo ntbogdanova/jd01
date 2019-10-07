@@ -1,6 +1,7 @@
 package car;
 
 public class BMW extends Car implements ICar{
+
     public BMW(Motor motor, Wheels wheels, License license, Sits sits, int lock) {
         super(motor, wheels, license, sits, lock);
     }
