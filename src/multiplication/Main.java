@@ -21,7 +21,10 @@ public class Main {
         Arrays.chooseSecond();
         System.out.println("");
         Arrays.chooseSecondWithNull();
-    }
+        System.out.println("");
 
+        DifferentArrays.diffArray();
+
+    }
 }
 

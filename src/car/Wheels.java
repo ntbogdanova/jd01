@@ -1,6 +1,6 @@
 package car;
 
-public class Wheels{
+public class Wheels extends Car{
     private int name;            //тип колеса
     private int rad;             //радиус
 

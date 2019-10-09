@@ -2,6 +2,8 @@ package car;
 
 public interface ICar {
 
+
+
     void isOpened();
     void isStarted();
     void go();

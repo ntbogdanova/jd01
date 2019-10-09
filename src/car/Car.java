@@ -16,6 +16,8 @@ public abstract class Car implements ICar{
         this.sits = sits;
     }
 
+    public Car() {   }
+
     public Motor getMotor() {
         return motor;
     }
